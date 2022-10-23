@@ -24,18 +24,28 @@
 .footer-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
+  display: none;
   margin-right: var(--dl-space-space-twounits);
+}
+.footer-link {
+  display: contents;
 }
 .footer-icon2 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
 .footer-icon4 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
+  display: none;
 }
-
+.footer-root-class-name {
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+}
 
 
 @media(max-width: 1600px) {

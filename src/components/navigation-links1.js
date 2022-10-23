@@ -12,12 +12,27 @@ const NavigationLinks1 = (props) => {
         {props.text}
       </Link>
       <Link to="/sponsors" className="navigation-links1-navlink1">
-        {props.text1}
+        {props.sponsors}
       </Link>
       <Link to="/gallery" className="navigation-links1-navlink2">
-        {props.text3}
+        {props.gallery}
       </Link>
-      <span className="navigation-links1-text">{props.text4}</span>
+      <a
+        href="https://wheatrobotics.org"
+        target="_blank"
+        rel="noreferrer noopener"
+        className="navigation-links1-link"
+      >
+        {props.gallery1}
+      </a>
+      <a
+        href="https://roboguide.team41robo.com"
+        target="_blank"
+        rel="noreferrer noopener"
+        className="navigation-links1-link1"
+      >
+        {props.gallery11}
+      </a>
     </nav>
   )
 }
@@ -25,17 +40,19 @@ const NavigationLinks1 = (props) => {
 NavigationLinks1.defaultProps = {
   rootClassName: '',
   text: 'About',
-  text4: 'Updates',
-  text3: 'Gallery',
-  text1: 'Sponsors',
+  gallery: 'Gallery',
+  sponsors: 'Sponsors',
+  gallery1: 'WHEAT',
+  gallery11: 'Robo Guide',
 }
 
 NavigationLinks1.propTypes = {
   rootClassName: PropTypes.string,
   text: PropTypes.string,
-  text4: PropTypes.string,
-  text3: PropTypes.string,
-  text1: PropTypes.string,
+  gallery: PropTypes.string,
+  sponsors: PropTypes.string,
+  gallery1: PropTypes.string,
+  gallery11: PropTypes.string,
 }
 
 export default NavigationLinks1
