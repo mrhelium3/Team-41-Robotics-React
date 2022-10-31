@@ -56,8 +56,8 @@
   }
   .footer-root-class-name2 {
     left: 0px;
+    right: -18px;
     bottom: 0px;
-    position: absolute;
   }
 }
 @media(max-width: 767px) {

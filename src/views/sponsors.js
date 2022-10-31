@@ -33,14 +33,14 @@ const Sponsors = (props) => {
           ></FeatureCard1>
           <FeatureCard1
             title="Warren Lions Club"
-            image_src1="https://team41robo.com/images/lions.png"
+            image_src1="https://team41robo.com/images/lions.webp"
             rootClassName="rootClassName1"
           ></FeatureCard1>
           <div className="sponsors-feature-card">
             <h2 className="sponsors-text03">Picut Manufacturing</h2>
             <img
               alt="Error Loading Image"
-              src="https://team41robo.com/images/picut.jpg"
+              src="https://team41robo.com/images/picut.webp"
               className="sponsors-image"
             />
           </div>
@@ -48,7 +48,7 @@ const Sponsors = (props) => {
             <h2 className="sponsors-text04">Knotts Company</h2>
             <img
               alt="Error Loading Image"
-              src="https://team41robo.com/images/knotts.png"
+              src="https://team41robo.com/images/knotts.webp"
               loading="eager"
               className="sponsors-image1"
             />
@@ -57,13 +57,13 @@ const Sponsors = (props) => {
             <h2 className="sponsors-text05">Nokia Bell Labs</h2>
             <img
               alt="image"
-              src="https://team41robo.com/images/nokia.png"
+              src="https://team41robo.com/images/nokia.webp"
               className="sponsors-image2"
             />
           </div>
           <FeatureCard1
             title="Thor Labs"
-            image_src1="https://team41robo.com/images/thor.png"
+            image_src1="https://team41robo.com/images/thor.webp"
             rootClassName="rootClassName6"
           ></FeatureCard1>
           <FeatureCard1
@@ -71,15 +71,17 @@ const Sponsors = (props) => {
             image_src1="https://team41robo.com/images/p&amp;r.webp"
             rootClassName="rootClassName5"
           ></FeatureCard1>
-          <FeatureCard1
-            title="Pennoni"
-            image_alt1="Error Loading Image"
-            image_src1="https://team41robo.com/images/pennoni.jpg"
-            rootClassName="rootClassName4"
-          ></FeatureCard1>
+          <div className="sponsors-feature-card3">
+            <h2 className="sponsors-text06">Pennoni</h2>
+            <img
+              alt="Error Loading Image"
+              src="https://team41robo.com/images/pennoni.webp"
+              className="sponsors-image3"
+            />
+          </div>
         </div>
       </div>
-      <h1 className="sponsors-text06">
+      <h1 className="sponsors-text07">
         <span>
           Want to become a sponsor?
           <span
@@ -94,7 +96,7 @@ const Sponsors = (props) => {
         href="mailto:business@team41robo.com?subject=Sponsorship Info"
         className="sponsors-link button"
       >
-        <span className="sponsors-text09">Contact</span>
+        <span className="sponsors-text10">Contact</span>
       </a>
       <Spacer rootClassName="spacer-root-class-name1"></Spacer>
       <Spacer rootClassName="spacer-root-class-name2"></Spacer>

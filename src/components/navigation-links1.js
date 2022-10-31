@@ -8,7 +8,7 @@ import './navigation-links1.css'
 const NavigationLinks1 = (props) => {
   return (
     <nav className={`navigation-links1-nav ${props.rootClassName} `}>
-      <Link to="/award-history" className="navigation-links1-navlink">
+      <Link to="/about" className="navigation-links1-navlink">
         {props.text}
       </Link>
       <Link to="/sponsors" className="navigation-links1-navlink1">
@@ -40,19 +40,19 @@ const NavigationLinks1 = (props) => {
 NavigationLinks1.defaultProps = {
   rootClassName: '',
   text: 'About',
+  gallery11: 'Robo Guide',
   gallery: 'Gallery',
   sponsors: 'Sponsors',
   gallery1: 'WHEAT',
-  gallery11: 'Robo Guide',
 }
 
 NavigationLinks1.propTypes = {
   rootClassName: PropTypes.string,
   text: PropTypes.string,
+  gallery11: PropTypes.string,
   gallery: PropTypes.string,
   sponsors: PropTypes.string,
   gallery1: PropTypes.string,
-  gallery11: PropTypes.string,
 }
 
 export default NavigationLinks1
